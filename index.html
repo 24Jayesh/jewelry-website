@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
+  <style>
+    body {
+      font-family: 'Charm';
+      font-size: 22px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-------------------------------Home------------------------------------------------->
+  <Section class="home">
+    <nav class="navbar1">
+      <a href="#home" class="nav-logo" id="home">
+        <img src="images\U__1_-removebg-preview.png">
+      </a>
+
+      <ul class="nav-menu1 ">
+        <li class="nav-item1">
+          <a href="#home" class="nav-link1">Home</a>
+        </li>
+        <li class="nav-item1">
+          <a href="#about" class="nav-link1">About</a>
+        </li>
+        <li class="nav-item1">
+          <a href="#service" class="nav-link1">Services</a>
+        </li>
+        <li class="nav-item1">
+          <a href="#vehicles" class="nav-link1">Details</a>
+        </li>
+        <li class="nav-item1">
+          <a href="#contact" class="nav-link1">Contact</a>
+        </li>
+      </ul>
+
+      <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </nav>
+    <div class="content">
+      <h1>Unveil Your Beauty<br>With The Finest Jewelry<br>
+        <p> "Diamond jewelry designs set in platinum or gold from the House of Harry Winston reflect a longstanding
+          tradition of creativity, rarity and quality without compromise."</p>
+        <button class="btn-home">Shop Now</button>
+      </h1>
+      <img class="image" src="a5.png" alt="">
+    </div>
+  </Section>
+
+  <!-----------------------------ABOUT US -------------------------------------------->
+  <Section class="about" id="about">
+    <div class="container">
+      <div class="title">
+        <h1>About Us</h1>
+      </div>
+      <p> My Jewellery Shop is an independent family jeweller with over 40 years' experience and expertise
+        in the beautiful world of jewellery. We are passionate about offering the highest quality of
+        service and our wealth of knowledge guarantees you and your precious jewellery will be
+        exceptionally cared for.<span id="dots">...</span><span id="more">Our gemstone collection includes an exclusive
+          range of loose diamonds available from all
+          around the world, including GIA Certified, Australian Argyle and Antwerp Diamonds. If
+          you have something out of the ordinary in mind, we can source this for you.</span></p>
+      <button onclick="myFunction()" id="myBtn">Read more</button>
+
+    </div>
+    </div>
+  </Section>
+  <!------------------------------CARD------------------------------------------------->
+  <section>
+    <div class="flex flex-col col">
+      <div class="flex-inl head1">Our Jewellery Price</div>
+      <div class="flex justify-center flex-wrap">
+        <div class="flex flex-col card">
+          <div class="flex card-head justify-center">Diamond Ring</div>
+          <div class="flex justify-center card-image">
+            <img src="images\beimg2.png" alt="" />
+          </div>
+          <div class="flex justify-center Price">$<span>10000 </span></div>
+          <div class="flex justify-center">
+            <button class="flex justify-center button button1 align-center">
+              Buy Now
+            </button>
+          </div>
+
+          <!-- <button class="flex justify-center buy"><span>Buy Now</span></div> -->
+        </div>
+        <div class="flex flex-col card">
+          <div class="flex card-head justify-center">Diamond Pandel</div>
+          <div class="flex justify-center card-image">
+            <img src="images\beimg3.png" alt="" />
+          </div>
+          <div class="flex justify-center Price">$<span>23000 </span></div>
+          <div class="flex justify-center">
+            <button class="flex justify-center button button1 align-center">
+              Buy Now
+            </button>
+          </div>
+        </div>
+        <div class="flex flex-col card">
+          <div class="flex card-head justify-center">Diamond Ring</div>
+          <div class="flex justify-center card-image">
+            <img src="images\beimg.png" alt="" />
+          </div>
+          <div class="flex justify-center Price">$<span>14500 </span></div>
+          <div class="flex justify-center">
+            <button class="flex justify-center button button1 align-center">
+              Buy Now
+            </button>
+          </div>
+        </div>
+        <div class="flex flex-col card">
+          <div class="flex card-head justify-center">Diamond Bracelet</div>
+          <div class="flex justify-center card-image">
+            <img src="images\img.png" alt="" />
+          </div>
+          <div class="flex justify-center Price">$<span>34500 </span></div>
+          <div class="buy flex justify-center">
+            <button class="flex justify-center align-center button button1">
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------------------------------CONTACT ------------------------------------------>
+  <section class="card" id="contact">
+    <div class="out">
+      <h2>Contact Us</h2>
+      <div class="contact">
+        <div class="frm">
+          <form onsubmit="details()">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="number" id="mob" placeholder="Phone" required>
+            <input type="text" id="fd" placeholder="Message" required>
+            <div class = "sbt">
+            <input type="submit" value="SUBMIT"></div>
+
+          </form>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229085.73732484458!2d78.0508119271116!3d26.21408798241698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976c5d1792291fb%3A0xff4fb56d65bc3adf!2sGwalior%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1675072569762!5m2!1sen!2sin"
+            allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--------------------------------------Footer----------------------------------->
+  <footer>
+    <div class="footer">
+      <div class="col-1">
+        <h3>Useful Links</h3>
+        <a href="#">About Us</a>
+        <a href="#">Terms of User</a>
+        <a href="#">Our Services</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Security</a>
+      </div>
+      <hr>
+      <div class="col-2">
+        <h3>News Letter</h3>
+        <form>
+          <input type="email" required placeholder="Your Email Address">
+          <br>
+          <button type="submit">Subscribe Now</button>
+        </form>
+      </div>
+      <hr>
+      <div class="col-3">
+        <h3>Contact</h3>
+        <p>123,Gole Ka Mandir,<br>Gwalior, M.P., IN</p>
+        <div class="social-media-links">
+          <a href="mailto:...." target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a>
+          <a href="mailto:...." target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+          <a href="mailto:...." target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+          <a href="mailto:....."><i class="fas fa-envelope-square fa-2x" target="_blank"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="end">
+      <p>AJwellers @ 2023,All Rights Reserved</p>
+    </div>
+
+  </footer>
+  <script src="jwellery.js"></script>
+</body>
+
+</html>
